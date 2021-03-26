@@ -13,7 +13,6 @@ $pdf->useTemplate($tplIdx);
 $pdf->SetFont('Arial', 'B', '24');
 $pdf->SetXY(50, 100);
 
-// $pdf->Write(10,'www.ApnaCode.com','https://www.apnacode.com');
 
 date_default_timezone_set('America/Costa_Rica');
 $dt2 = date("Y-m-d H:i:s");
